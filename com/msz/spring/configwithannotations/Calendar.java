@@ -1,5 +1,9 @@
 package com.msz.spring.configwithannotations;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class Calendar implements CalendarDay {
 
     private Message theSundayMessage;
